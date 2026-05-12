@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrarySystem.Core", "LibrarySystem.Core\LibrarySystem.Core.csproj", "{BB9B901B-40C5-4B67-9054-EE88E71DA8D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrarySystem.Tests", "LibrarySystem.Tests\LibrarySystem.Tests.csproj", "{EBC77ABA-AF6A-4E17-8848-1254EC14CAB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrarySystem.BddTests", "LibrarySystem.BddTests\LibrarySystem.BddTests.csproj", "{E4274FE5-C365-4578-86FC-B120594D52F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB9B901B-40C5-4B67-9054-EE88E71DA8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9B901B-40C5-4B67-9054-EE88E71DA8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9B901B-40C5-4B67-9054-EE88E71DA8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9B901B-40C5-4B67-9054-EE88E71DA8D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC77ABA-AF6A-4E17-8848-1254EC14CAB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC77ABA-AF6A-4E17-8848-1254EC14CAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC77ABA-AF6A-4E17-8848-1254EC14CAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC77ABA-AF6A-4E17-8848-1254EC14CAB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4274FE5-C365-4578-86FC-B120594D52F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4274FE5-C365-4578-86FC-B120594D52F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4274FE5-C365-4578-86FC-B120594D52F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4274FE5-C365-4578-86FC-B120594D52F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
