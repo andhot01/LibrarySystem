@@ -73,6 +73,8 @@ public class LibraryService
         if (existingLoan != null)
             return ReserveResult.AlreadyReserved;
         
+        var existingReservation = _reservationRepository.GetReservation(userId, bookId);
+        
         if (book.AvailableCopies > 0)
             return ReserveResult.BookAvailableForBorrowing;
         
@@ -100,7 +102,7 @@ public class LibraryService
         if (loan == null)
             return ReturnResult.LoanNotFound;
         
-        _loanRepository.Reove(loan);
+        _loanRepository.Remove(loan);
         
         book.AvailableCopies++;
         _bookRepository.Update(book);
